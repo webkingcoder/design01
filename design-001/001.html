@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DESIGN_001</title>
+    <link rel="stylesheet" href="001.css">
+</head>
+<body>
+    <span class="reg">Corona Vaccine Regestration</span>
+    <div class="container">
+    <form action="mailto saxenaambar04@gmail.com">
+        <h1>Create an account</h1>
+        <span>Already have an account?<button class="but1">Sign in</button></span><br><br>
+        <label for="Email address">Email address</label><br>
+        <input type="email">
+        <br> <br>
+        <table>
+            <tr>
+                <th>
+                    <label for="F-name">First name</label>
+                </th>
+                <th>
+                    <label for="l-name">Last name</label>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text">
+                </td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+        </table>
+        <br>
+        <label for="password">password</label>
+        <br>
+        <input type="password">
+        <br><br>
+        <label for="dob">Date of birth</label>
+        <table>
+            <tr>
+                <th>month</th>
+                <th>day</th>
+                <th>year</th>
+            </tr>
+            <tr>
+                <td>
+                    <input list="month" class="months">
+                    <datalist id="month">
+                        <option value="January">
+                        <option value="Febuary">
+                        <option value="March">
+                        <option value="April">
+                        <option value="May">
+                        <option value="June">
+                        <option value="July">
+                        <option value="August">
+                        <option value="September">
+                        <option value="October">
+                        <option value="November">
+                        <option value="December">
+                    </datalist>
+                </td>
+                <td>
+                    <input type="text" class="months">
+                </td>
+                <td>
+                    <input type="text" class="months">
+                </td>
+            </tr>
+        </table>
+        <br>
+        <label for="counter" >Country/Region</label>
+        <br>
+        <input list="counters" id="counter" name="counter">
+        <datalist id="counters">
+            <option value="India">
+            <option value="Nepal">
+            <option value="America">
+            <option value="Iran">
+            <option value="bangladesh">
+        </datalist>
+        <br>
+        <br>
+       <span> By clicking Create account, I agree that: </span>
+       <ul>
+           <li class="li">
+               I have read and accepted the <span class="terms">Terms and conditions.</span> 
+           </li>
+           <li>
+               The Saxena family of companies may keep me informed with <span class="terms">personalized</span>emails about products and services.
+           </li>
+       </ul> 
+        See our <span class="terms">Privacy Policy</span> for more details or to opt-out at any time.
+        <br><br>
+       <button class="but2">Create account</button>
+       <br><br>
+       <p>Protected by reCAPTCHA and subject to the Google Privacy Policy and Terms of Service.</p>
+    </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+body{
+    background-image: url("corona.jpg");
+    font-weight: 700;
+}
+h1{color: black; line-height: 1px;}
+.container
+{
+    line-height: 20px;
+    position: absolute;
+    right: 150px;
+    background-color: white;
+    width: 500px;
+    padding: 20px;
+    margin: 20px;
+    color: grey;
+}
+table{text-align: left; column-gap: 2px;}
+.months{width: 100px;}
+.but1{
+    border-style: none;
+    background-color: white;
+    color: blue;
+    font-weight: 700;
+}
+input{
+    border-style: none none solid;
+}
+input:hover{border-style: none none dotted ;}
+.terms{color: rgb(42, 42, 241);}
+.but2{background-color: rgb(25, 25, 236); 
+    color: white; border-radius: 30px;
+    position: absolute;
+    right: 100px;
+    padding: 5px;
+}
+.reg{position: absolute;
+    left: 100px;
+    top: 300px;
+    color: yellow;
+    background-color: red;
+    font-weight: bolder;
+    font-size: larger;
+    padding: 5px;
+}
